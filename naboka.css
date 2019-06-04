@@ -132,6 +132,14 @@ a {
 	top: 1vh;
 }
 }
+@media (max-width: 250px) {
+	#image { 
+	left: -8vw;
+	height: 20vh;
+	width: 100vw;
+	top: 1vh;
+}
+}
 .header {
 	z-index: 300;
 	background: #2B2832;
@@ -141,7 +149,7 @@ a {
 #header {
 	background-size: contain;
 	z-index: 300;
-	height: 8%;
+	height: 7%;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -190,6 +198,19 @@ a {
 	#logo {
 	background-size: contain;
 	font-size: 2.5vh;
+	z-index: 300;
+	left: 4vw;
+	position: relative;
+	top: 1vh;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+}
+@media (max-width: 250px) {
+	#logo {
+	background-size: contain;
+	font-size: 2vh;
 	z-index: 300;
 	left: 4vw;
 	position: relative;
@@ -302,6 +323,17 @@ a {
 	color: #B22222;
 	padding-left: 60vw;
 	margin-top: -1.2vh;
+}
+}
+@media (max-width: 250px) {
+	header div{
+	background-size: contain;
+	font-size: 1.4vh;
+	z-index: 300;
+	position: relative;
+	color: #B22222;
+	padding-left: 40vw;
+	margin-top: -1.7vh;
 }
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -433,6 +465,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	display: inline-block;
 }
 }
+@media (max-width: 250px) {
+		header nav li {
+	cursor: pointer;
+	background-size: contain;
+	z-index: 300;
+	font-weight: bold;
+	position: relative;
+    padding: 0.1vh 0.2vh;
+    font-family: 'helioscondblackregular';
+    font-size: 1.2vh;	
+	color: white;
+	display: inline-block;
+}
+}
 @media screen {
 .header .menu {
 	z-index: 300;
@@ -520,6 +566,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	position: relative;
 	list-style: none;
 }
+}
+@media (max-width: 250px) {
+	.header .menu {
+	z-index: 300;
+    list-style: none;
+	top: 5%;
+    margin-right: 5%;
+	float: right;
+	position: relative;
+	list-style: none;
+}
+}
+.del {
+	opacity: 0;
 }
 .main {
 	z-index: 100;
@@ -648,6 +708,21 @@ article>section {
 	border-top: 2vw solid #868686;
 }
 }
+@media (max-width: 250px) {
+	.welcome {
+	margin-top: 7.5vh;
+	background-size: contain;
+	margin-right: 0vw;
+	margin-left: 0vw;
+	width: 21.5%;
+	z-index: 200;
+	border-radius: 5vw;
+  	background-repeat: no-repeat;
+	background: url(imgs/bckgr.jpg);	
+	border-top: 2vw solid #868686;
+}
+}
+
 .onepage {
 	min-width: 85vw;
 	background-size: contain;
@@ -799,6 +874,23 @@ article>section {
     color: #0B160B;
 }
 }
+@media (max-width: 250px) {
+	.posters .site-title h1 {
+	left: -40%;
+	z-index: 100;
+	top: 1vh;
+	float: right;
+	margin: 0 0 1%;
+	position: relative;
+    font-family: 'HeliosCondRegular', arial;
+    font-size: 1.2vh;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0.05vw;
+    color: #0B160B;
+}
+}
 .o {
 	z-index: 100;
 	display: inline-block;
@@ -917,6 +1009,21 @@ article>section {
 	z-index: 100;
 	left: 35vw;
 	top: 8vw;
+	position: relative;
+	float: right;
+    font-family: 'HeliosCondBlackRegular', arial;
+    font-size: 1.3vh;
+    font-weight: 800;
+    text-align: left;
+    color: #1E1E1E;
+    text-transform: uppercase;
+}
+}
+@media (max-width: 250px) {
+	.posters .site-title h2 {
+	z-index: 100;
+	left: -20vw;
+	top: 2vw;
 	position: relative;
 	float: right;
     font-family: 'HeliosCondBlackRegular', arial;
