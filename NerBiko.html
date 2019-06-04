@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NerBiko</title>
+	<link rel="stylesheet" type="text/css" href="naboka.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<a href="/" id="logo">NerBiko</a>
+		<div id="phone">+38 (073) 066 5611</div>
+		<nav class="menu ">
+			<a href="#about-us" data-target = "anchor"><li>About us</li></a>
+			<a href="#main-page" data-target = "anchor"><li class="main">Main</li></a>
+			<a href="#third" data-target = "anchor"><li>Respect</li></a>
+			<li>Keys</li></a>
+			<li>Support</li></a>
+		</nav>
+		<main>
+	</header>
+		<article id="main-page">
+		<section class="section welcome onepage" data-section-name="welcome">
+		<div class="posters">
+			<div class="site-title">
+				<h1>
+			Агенство
+			<br>
+			Веб-програмування
+			<br>
+			Чабана Іллі
+		</h1>
+		<h2>
+			<div class="o">ЛЕГКЕ</div>
+			<br>
+			<div class="t">ПРОГРАММУВАННЯ
+			<br>
+			ДЛЯ ЛЮДЕЙ</div>
+		</h2>
+			</div>
+			<div class="bike">
+				<img src="https://naboka.ru/tm/images/Naboka.png" id="image" class="pizda">
+			</div>
+		</div>
+	</section>
+	</article>	
+
+<article class="sec" id="about-us">
+	<section class="second">
+	<div class="container">
+		<p class="section-title">
+		<span>
+			МЫ ЗАЙМАЄМОСЯ
+		</span>
+	</p>
+
+	<p class="section-text">
+		Агентство Веб-розробки пропонує Клієнтам вивчення найбільш затребуваних мов програмування таких як JavaScript, Python, PHP, MySQL, Node.js, JQuery.
+	</p>
+<div class=".tab">
+	<h6 class="tabs">
+	ВЕБ-ПРОГРАМУВАННЯ
+	<br>
+	ЦЕ ЛЕГКО		
+	</h6>
+	<div class="last-text">
+		<p>
+		За статистикою, 60% програмістів вибрали цю професію, через незалежность від кого завгодно, до того ж це заохочується високою зарплатою і можливістю подорожувати по всьому світу.
+	</p>
+		<p>Вы зможете самі вирішувати, що вам робити!</p>
+		
+		<p><a href="/">Детальніше про нас >>></a></p>
+	</div>	
+</div>
+
+	<ul class="tabs-menu">
+		<li class="active">
+			<a href="#tab-1" class="button">SERM</a>
+		</li>
+        <li>
+        	<a href="#tab-2" class="button">STRATEGY</a>
+        </li>
+		<li>
+			<a href="#tab-3" class="button">SMM</a>
+		</li>
+        <li>
+        	<a href="#tab-4" class="button">SEO</a>
+        </li>
+        <li>
+        	<a href="#tab-5" class="button">MEDIA</a>		
+        </li>
+	</ul>
+	
+	</div>
+		</section>
+</article>
+	<article class="third" id="third">
+		<section class="logo-title">
+			<h1>Компанії з якими ми співпрацюємо</h1>
+		<div class="logos"> 
+		<a href="https://www.samsung.com"><img src="http://pngimg.com/uploads/samsung_logo/samsung_logo_PNG9.png" class="company"> </a>
+		<a href="https://www.apple.com"><img src="https://image.flaticon.com/icons/png/512/23/23656.png" class="company"></a>
+		<a href="https://www.xiaomi.ua/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/1200px-Xiaomi_logo.svg.png" class="company"></a>
+		<a href="https://google.com"><img src="https://pngicon.ru/file/uploads/google.png" class="company"></a>
+		<a href="https://ru.wix.com/"><img src="https://lh3.googleusercontent.com/90js8HRqcoSIzQ2gvT5VTsVSB0BBCumtYjpB2yB3gqNtOgBqJhNQ89LZXkfG2TAoniM" class="company"></a>
+		<a href="https://telegram.org/"><img src="http://pngimg.com/uploads/telegram/telegram_PNG22.png" class="company"></a>
+		</div>
+		</section>
+	</article>
+
+	</main>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+	$('a[data-target^="anchor"]').bind('click.smoothscroll', function(){
+		var target = $(this).attr('href'),
+			bl_top = $(target).offset().top - 50;
+		$('body, html').animate({scrollTop: bl_top}, 800);
+		return false;
+	});
+
+
+});
+	</script>
+</body>
+</html>
