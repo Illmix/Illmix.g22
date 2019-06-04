@@ -37,6 +37,7 @@ a {
 	font-family: 'PT Sans', sans-serif;
 	line-height: 1.6;
 }
+}
 @media (max-width: 350px) {
 	body {
 	max-width: 100%;
@@ -49,6 +50,7 @@ a {
 	font-family: 'PT Sans', sans-serif;
 	line-height: 1.6;
 }
+}
 @media (max-width: 1280px) {
 		body {
 	max-width: 100%;
@@ -60,7 +62,6 @@ a {
     font-weight: 400;
 	font-family: 'PT Sans', sans-serif;
 	line-height: 1.6;
-}
 }
 }
 @media screen {
@@ -564,7 +565,7 @@ article>section {
 }
 @media (max-width: 350px) {
 	.welcome {
-	margin-top: 7vh;
+	margin-top: 8vh;
 	background-size: contain;
 	margin-right: 0vw;
 	margin-left: 0vw;
@@ -811,7 +812,7 @@ article>section {
 @media (max-width: 350px) {
 	.posters .site-title h2 {
 	z-index: 100;
-	left: 34vw;
+	left: 35vw;
 	top: 8vw;
 	position: relative;
 	float: right;
@@ -901,7 +902,20 @@ p {
     border-bottom: 0.15vw solid #333;
 }
 }
-
+@media (max-width: 350px) {
+	.section-title{	
+	   font-size: 3.5vw;
+	left: 15vw;
+	margin-top: -2%;
+	position: relative;
+	display: inline-block;
+    padding: 2% 0;
+    color: #333333;
+    font-weight: bold;
+    border-top: 0.1vw solid #333;
+    border-bottom: 0.15vw solid #333;
+}
+}
 @media screen {
 	 .section-text {
  	text-align: center;
@@ -934,6 +948,14 @@ p {
     font-size: 1.3vh;
  }
 }
+@media (max-width: 350px) {
+	 .section-text {
+ 	text-align: center;
+    color: #6D6E71;
+    font-style: italic;
+    font-size: 1.2vh;
+ }
+}
 @media screen {
 	.sec {
  	width: 100%;
@@ -957,6 +979,15 @@ p {
 @media (max-width: 700px) {
 	.sec {
  	width: 65%;
+ 	transition: 0.5s linear;
+ 	border-radius: 11%;
+ 	border-top: 30px solid #868686;
+ 	background: #ACACAC;
+ }
+}
+@media (max-width: 350px) {
+	.sec {
+ 	width: 31%;
  	transition: 0.5s linear;
  	border-radius: 11%;
  	border-top: 30px solid #868686;
